@@ -5,22 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Shane Arcaro">
   <meta name="description" content="An all-encompassing portfolio detailing my abilities as a student Software Developer."/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/style.css">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>
+  <link rel="manifest" href="./site.webmanifest"/>
 
   <title>Shane Arcaro</title>
 </head>
 <body>
   <section id="title">
     <h1>Shane Arcaro</h1>
-    <span class="typer" id="description" data-words="Student,Programmer,Web Master" data-delay="100" data-deleteDelay="1000"></span>
-    <span class="cursor" data-owner="description"></span>
-    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <div class="text">
+      <span class="typer" id="description" data-words="Student,Programmer,Web Master" data-delay="100" data-deleteDelay="1000"></span>
+      <span class="cursor" data-owner="description"></span>
+      <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    </div>
   </section>
+  <section id="school">
+    <div class="schoolTitle" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" data-aos-easing="linear">
+      <h1>New Jesery Institute of Technology</h1>
+      <h4>Computer Science, Information Technology Double Major</h4>
+      <a href="https://www.njit.edu/"><img src="./assets/njitLogo.png" alt="NJIT Logo"></a>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

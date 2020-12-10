@@ -1,3 +1,4 @@
+/* Setting page defaults */
 * {
     font-family: 'Poppins', sans-serif;
     background-color: bisque;
@@ -5,13 +6,17 @@
     margin: 0;
 }
 
+/* === Title Section ==== */
 #title {
-    position: fixed;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    min-height: 100vh;
+}
+/* Written out text has to be next to each other */
+.text {
+    flex-direction: row;
 }
 
 #title h1 {
@@ -20,4 +25,24 @@
 
 #title span {
     font-size: 6vw;
+}
+
+/* Education Section */
+#school {
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+    min-height: 25vh;
+}
+
+#school h4 {
+    font-size: 2vw;
+}
+
+.schoolTitle img {
+    width: 20%;
+}
+
+#thin-text {
+    font-weight: 300;
 }
