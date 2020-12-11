@@ -46,6 +46,14 @@ body {
     padding-top: 5vw;
 }
 
+#school-green {
+    color: #00b489;
+}
+
+#school-blue {
+    color: #007bb5;
+}
+
 .school-title span {
     color: #bb0000;
 }
