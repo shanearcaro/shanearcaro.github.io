@@ -1,9 +1,12 @@
 /* Setting page defaults */
 * {
     font-family: 'Poppins', sans-serif;
-    background-color: bisque;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: bisque;
 }
 
 /* === Title Section ==== */
@@ -31,18 +34,93 @@
 #school {
     position: relative;
     text-align: center;
-    font-size: 3vw;
+    font-size: 5vw;
     min-height: 25vh;
 }
 
+/* Text on desktop works perfectly but on mobile it's too small
+    -- must fix later on */
 #school h4 {
-    font-size: 2vw;
+    font-size: 3.5vw;
 }
 
-.schoolTitle img {
+.school-title img {
     width: 20%;
 }
 
-#thin-text {
-    font-weight: 300;
+@media only screen and (min-width: 768px) {
+    .mobile-break {
+        display: none;
+    }
+    #school {
+        font-size: 3vw;
+    }
+    #school h4 {
+        font-size: 2vw;
+    }
+}
+
+/* Programs Section */
+#programs {
+    position: absolute;
+    width: 75vw;
+    margin: 3rem auto 0rem;
+    left: 0;
+    right: 0;
+}
+
+#language-icon {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    width: 10vw;
+    height: auto;
+}
+
+/* === Social Media Icons === */
+#social-media {
+    height: 20rem;
+}
+
+.fa {
+    padding: 2vw;
+    font-size: 3vw;
+    width: 7vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 3vw 1vw;
+    border-radius: 50%;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .fa {
+        padding: 1.5vw;
+        font-size: 2.25vw;
+        width: 5vw;
+    }
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background-color: #55acee;
+}
+
+.fa-instagram {
+    background-color: #bb0000;
+}
+
+.fa-github {
+    background-color: #00b489;
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+}
+
+.fa-envelope-o {
+    background-color: #ff6600;
 }
