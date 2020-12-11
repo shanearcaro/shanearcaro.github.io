@@ -81,7 +81,7 @@ body {
 .fa {
     padding: 3vw;
     font-size: 4.5vw;
-    width: 10vw;
+    width: 6vw;
     text-align: center;
     text-decoration: none;
     margin: 3vw 1vw;
@@ -93,7 +93,7 @@ body {
     .fa {
         padding: 1.5vw;
         font-size: 2.25vw;
-        width: 5vw;
+        width: 3vw;
     }
 }
 
