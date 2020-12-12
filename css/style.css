@@ -100,7 +100,7 @@ body {
 @media only screen and (min-width: 768px) {
     .fa {
         padding: 1.5vw;
-        font-size: 2.25vw;
+        font-size: 2.5vw;
         width: 2.75vw;
     }
 }
@@ -110,7 +110,7 @@ body {
 .fa-instagram { background-color: #bb0000; }
 .fa-github { background-color: #00b489; }
 .fa-linkedin { background-color: #007bb5; }
-.fa-envelope-o { background-color: #ff6600; }
+.fa-envelope-o, .fa-envelope-open-o { background-color: #ff6600; }
 
 /* Github Repositories */
 #git-repositories {
