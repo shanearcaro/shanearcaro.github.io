@@ -133,31 +133,29 @@ body {
 }
 
 .left, .right {
+    display: inline-block;
+    vertical-align: top;
     width: 40vw;
+    
 }
 
 .left {
-    display: inline-block;
-    vertical-align: top;
     margin-right: 2vw;
-    text-align: justify;
 }
 
 .right {
-    display: inline-block;
-    vertical-align: top;
     margin-left: 2vw;
-    text-align: justify;
 }
 
 .git-row h2 {
     text-align: left;
-    font-size: 2.5vw;
+    font-size: 2.75vw;
     margin-bottom: 0.5vh;
 }
 
 .git-row p {
-    font-size: 2vw;
+    font-size: 2.25vw;
+    text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
@@ -176,7 +174,6 @@ body {
     }
     
     .git-row h2 {
-        text-align: left;
         font-size: 2vw;
     }
     
