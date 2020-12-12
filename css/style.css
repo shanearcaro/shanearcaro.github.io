@@ -119,6 +119,15 @@ body {
     text-align: center;
 }
 
+#git-repositories a,
+#git-repositories a:hover,
+#git-repositories a:visited {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+
+}
+
 .git-title {
     font-size: 3vw;
     margin-bottom: 3vh;
@@ -158,6 +167,11 @@ body {
     text-align: left;
 }
 
+.git-title-image {
+    width: 3vw;
+    height: auto;
+}
+
 @media only screen and (min-width: 768px) {
     #git-repositories {
         margin-top: 8vh;
@@ -165,7 +179,7 @@ body {
     }
 
     .git-title {
-        font-size: 2.5vw;
+        font-size: 2.25vw;
         margin-bottom: 5vh;
     }
 
