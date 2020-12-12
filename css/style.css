@@ -101,7 +101,7 @@ body {
     .fa {
         padding: 1.5vw;
         font-size: 2.25vw;
-        width: 3vw;
+        width: 2.75vw;
     }
 }
 
@@ -114,5 +114,73 @@ body {
 
 /* Github Repositories */
 #git-repositories {
-    min-height: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.git-title {
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+.git-row {
+    text-align: center;
+}
+
+.row-top {
+    margin-bottom: 6vh;
+}
+
+.left, .right {
+    width: 40vw;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2vw;
+    text-align: justify;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2vw;
+    text-align: justify;
+}
+
+.git-row h2 {
+    text-align: left;
+    font-size: 2.5vw;
+    margin-bottom: 0.5vh;
+}
+
+.git-row p {
+    font-size: 2vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #git-repositories {
+        margin-top: 8vh;
+        margin-bottom: 12vh;
+    }
+
+    .git-title {
+        font-size: 2.5vw;
+        margin-bottom: 5vh;
+    }
+
+    .left, .right {
+        width: 30vw;
+    }
+    
+    .git-row h2 {
+        text-align: left;
+        font-size: 2vw;
+    }
+    
+    .git-row p {
+        font-size: 1.5vw;
+    }
 }
