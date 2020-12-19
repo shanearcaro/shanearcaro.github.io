@@ -8,8 +8,7 @@ envelope.onmouseout = function() {
     envelope.classList.replace("fa-envelope-open-o", "fa-envelope-o");
 }
 
-
-
+let message = "";
 $("#sendMessage").on("click", function() {
     message = $("#contact-form").serialize();
     $.ajax({
@@ -18,7 +17,7 @@ $("#sendMessage").on("click", function() {
         data: {message: message},
         dataType: "json"
     });
-    alert('Thanks for the email, we\'ll be in touch promptly.');
+    // alert('Thanks for the email, we\'ll be in touch promptly.');
     document.getElementById("contact-form").reset();
     return false;
 });
