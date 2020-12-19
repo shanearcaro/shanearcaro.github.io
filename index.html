@@ -18,11 +18,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>
   <link rel="manifest" href="./site.webmanifest"/>
-  <title>Shane Arcaro</title>
+  <title>Shane Arcaro | Student Developer</title>
 </head>
 <body>
   <!-- Title section with typer text -->
-  <section id="title" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="900">
+  <section id="title" class="light" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="900">
     <h1>Shane Arcaro</h1>
     <div class="text">
       <span class="typer" id="description" data-words="Student,Programmer,Webmaster" data-delay="100" data-deleteDelay="1000"></span>
@@ -32,14 +32,14 @@
   </section>
 
   <!-- School information with NJIT picture -->
-  <section id="school">
+  <section id="school" class="dark">
     <div class="school-title" data-aos="fade-up" data-aos-delay="150" data-aos-duration="900">
       <h1>New Jersey <br class="mobile-break">Institute of <span>Technology</span></h1>
       <h4><span id="school-green">Computer Science</span>, <br class="mobile-break"><span id="school-blue">Information Technology</span> Double Major</h4>
       <a href="https://www.njit.edu/" target="_blank" rel="noopener noreferrer"><img src="./assets/njitLogo.png" alt="NJIT Logo"></a>
     </div>
   </section>
-  <section id="social-media">
+  <section id="social-media" class="dark">
     <div class="icons" data-aos="fade-up" data-aos-delay="0" data-aos-duration="900">
       <a id="icon-twitter" href="https://twitter.com/shanearcaro?lang=en" target="_blank" rel="noopener noreferrer" class="fa fa-twitter hoverable"></a>
       <a id="icon-instagram" href="https://www.instagram.com/shanearcaro/" target="_blank" rel="noopener noreferrer" class="fa fa-instagram hoverable"></a>
@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <section id="git-repositories">
+  <section id="git-repositories" class="light">
     <div class="git-title" data-aos="fade-up" data-aos-delay="150" data-aos-duration="900">
       <h1>Github Projects</h1>
     </div>
@@ -98,6 +98,19 @@
         </a>
       </div>
     </div>
+  </section>
+  <section id="contact" class="dark">
+    <h2 id="contact-title">Contact Me!</h2>
+      <form action="https://formspree.io/f/xjvpalok" id="contact-form" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_next" value="shanearcaro.com/thank-you.html">
+        <label class="contact-form-label" name="form-label" for="contact-form-name">* Required</label>
+        <input id="contact-form-name" name="form-contact" type="text" placeholder="Name" maxlength="75">
+        <label class="contact-form-label" name="form-label" for="contact-form-email" required="true">* Required</label>
+        <input id="contact-form-email" name="form-email" type="text" placeholder="Email" maxlength="75" required="true">
+        <label class="contact-form-label" name="form-label" for="contact-form-message">* Required</label>
+        <textarea id="contact-form-message" name="form-message" id="" cols="2" rows="3" placeholder="Your message..." maxlength="700" required="true"></textarea>
+        <button id="contact-form-submit">Submit</button>
+      </form>
   </section>
 
   <!-- Extra Javascript Libraries -->
