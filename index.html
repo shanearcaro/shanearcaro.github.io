@@ -104,20 +104,21 @@
   <section id="contact" class="dark">
     <h2 id="contact-title">Contact Me!</h2>
     <!-- https://formspree.io/f/xjvpalok -->
-      <form id="contact-form" method="POST">
+      <form action="https://kwes.io/api/foreign/forms/fafezeJsFZ0gsk7FtW1d" class="kwes-form" id="contact-form">
         <label class="contact-form-label" name="form-label" for="contact-form-name">* Required</label>
         <input id="contact-form-name" name="form-contact" type="text" placeholder="Name" maxlength="75" required="true">
         <label class="contact-form-label" name="form-label" for="contact-form-email" required="true">* Required</label>
         <input id="contact-form-email" name="form-email" type="text" placeholder="Email" maxlength="75" required="true">
         <label class="contact-form-label" name="form-label" for="contact-form-message">* Required</label>
         <textarea id="contact-form-message" name="form-message" id="" cols="2" rows="3" placeholder="Your message..." maxlength="700" required="true"></textarea>
-        <button id="contact-form-submit">Submit</button>
+        <button id="contact-form-submit" onClick="submitForm()">Submit</button>
       </form>
   </section>
 
   <!-- Extra Javascript Libraries -->
   <script src="./javascript/script.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://kwes.io/v2/kwes-script.js" defer></script> 
   <script>
     AOS.init();
   </script>
