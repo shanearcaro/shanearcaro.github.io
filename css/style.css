@@ -73,7 +73,7 @@
     width: 20%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .mobile-break {
         display: none;
     }
@@ -103,7 +103,7 @@
     color: white;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .fa {
         padding: 1.5vw;
         font-size: 2.5vw;
@@ -178,7 +178,7 @@
     height: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     #git-repositories {
         padding-top: 8vh;
         padding-bottom: 12vh;
@@ -263,7 +263,7 @@
     font-size: 3vw;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     #contact {
         display: flex;
         flex-direction: column;
