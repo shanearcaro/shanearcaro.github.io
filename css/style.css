@@ -203,16 +203,75 @@
 }
 
 /* === Contact Email === */
+@media only screen and (min-width: 768px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 8vh;
+        text-align: center;
+    }
+    
+    #contact-title {
+        font-size: 3vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    #contact-form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #contact-form input, #contact-form textarea {
+        margin: 0;
+        padding: 0;
+        width: 20vw;
+        background-color: #202325;
+        color: white;
+        border: none;
+        border-bottom: 1px solid #007bb5;   
+        padding-left: 1vh;
+    }
+    
+    #contact-form input {
+        height: 5vh;
+    }
+    
+    #contact-form textarea {
+        padding-top: 1vh;
+        margin-bottom: 3vh;
+        resize:none;
+    }
+    
+    .contact-form-label {
+        text-align: left;
+        width: 20vw;
+        color: red;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+    
+    #contact-form-submit {
+        width: 20.5vw;
+        padding: 1vh 1vw;
+        border-radius: 5px;
+        border: none;
+        background-color: #00b489;
+        font-size: 0.75vw;
+    }
+}
 #contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 8vh;
+    padding-bottom: 4vh;
     text-align: center;
 }
 
 #contact-title {
-    font-size: 3vw;
+    font-size: 5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
@@ -224,9 +283,10 @@
 }
 
 #contact-form input, #contact-form textarea {
+    font-size: 3vw;
     margin: 0;
     padding: 0;
-    width: 20vw;
+    width: 40vw;
     background-color: #202325;
     color: white;
     border: none;
@@ -246,17 +306,18 @@
 
 .contact-form-label {
     text-align: left;
-    width: 20vw;
+    font-size: 3vw;
+    width: 38vw;
     color: red;
-    margin-bottom: 1vh;
+    margin-bottom: 0.5vh;
     margin-top: 1vh;
 }
 
 #contact-form-submit {
-    width: 20.5vw;
-    padding: 1vh 1vw;
+    width: 43vw;
+    padding: 0.5vh 1vw;
     border-radius: 5px;
     border: none;
     background-color: #00b489;
-    font-size: 0.75vw;
+    font-size: 3vw;
 }
