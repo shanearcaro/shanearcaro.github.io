@@ -1,0 +1,46 @@
+/* Setting page defaults */
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+.icon {
+    display: flex;
+    margin: 28vh auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.title {
+    margin-top: 3vh;
+    font-size: 7vw;
+    text-align: center;
+    color: black;
+}
+
+.text {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+@media only screen and (min-width: 769px) {
+    .icon {
+        display: flex;
+        margin: 10vh auto 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    .title {
+        margin-top: 5vh;
+        font-size: 2.5vw;
+        text-align: center;
+        color: black;
+    }
+    
+    .text {
+        text-align: center;
+        font-size: 1vw;
+    }
+}
