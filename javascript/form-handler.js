@@ -1262,7 +1262,7 @@ var kwesforms = function(e) {
             function e(t) {
                 ! function(e, t) {
                     if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
-                }(this, e), this.locale = t, this.message = r("vQhV")
+                }(this, e), this.locale = t
             }
             var t, i, o;
             return t = e, (i = [{
