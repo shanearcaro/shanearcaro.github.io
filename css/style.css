@@ -213,7 +213,7 @@
 
 #contact-title {
     font-size: 6vw;
-    padding-top: 4vh;
+    padding-top: 7vh;
     padding-bottom: 4vh;
 }
 
@@ -261,6 +261,7 @@
     border: none;
     background-color: #00b489;
     font-size: 3.5vw;
+    margin-bottom: 10vh;
 }
 
 @media only screen and (min-width: 769px) {
@@ -274,7 +275,7 @@
     
     #contact-title {
         font-size: 3vw;
-        padding-top: 5vh;
+        padding-top: 10vh;
         padding-bottom: 5vh;
     }
     
@@ -322,5 +323,6 @@
         border: none;
         background-color: #00b489;
         font-size: 0.75vw;
+        margin-bottom: 5vh;
     }
 }   
