@@ -135,7 +135,7 @@
 }
 
 .git-title {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-bottom: 3vh;
 }
 
@@ -150,7 +150,7 @@
 .left, .right {
     display: inline-block;
     vertical-align: top;
-    width: 40vw;
+    width: 43vw;
     
 }
 
@@ -164,17 +164,17 @@
 
 .git-row h2 {
     text-align: left;
-    font-size: 2.75vw;
+    font-size: 3.25vw;
     margin-bottom: 0.5vh;
 }
 
 .git-row p {
-    font-size: 2.25vw;
+    font-size: 3vw;
     text-align: left;
 }
 
 .git-title-image {
-    width: 3vw;
+    width: 4vw;
     height: auto;
 }
 
@@ -212,9 +212,9 @@
 }
 
 #contact-title {
-    font-size: 5vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    font-size: 6vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 #contact-form {
@@ -224,7 +224,7 @@
 }
 
 #contact-form input, #contact-form textarea {
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin: 0;
     padding: 0;
     width: 40vw;
@@ -260,7 +260,7 @@
     border-radius: 5px;
     border: none;
     background-color: #00b489;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 @media only screen and (min-width: 769px) {
