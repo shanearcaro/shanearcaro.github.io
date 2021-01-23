@@ -340,12 +340,22 @@
     text-align: center;
 }
 
+
 @media only screen and (min-width: 769px) {
     .resume-experience,
     .resume-skills,
     .resume-awards {
-        padding-top: 8vh;
-        padding-bottom: 12vh;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
     }
-    
+
+    #resume h1 {
+        font-size: 3vw;
+        padding-bottom: 6vh;
+    }
+
+    #resume h2 {
+        font-size: 2vw;
+        color: #00b489;
+    }
 }
